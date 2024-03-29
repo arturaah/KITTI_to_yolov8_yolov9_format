@@ -9,11 +9,11 @@ Remember to replace to fill in the original dataset path and target path for eac
 pip install PIL
 
 Running order:
-1 - KITTItoyolo.py - adapts label format from custom KITTI labelling to yolov8/9
-2 - resize.py - stretches to 640x640
-3 - labels_1242x375_to_640x640.py - adapts labels
-4 - own.py - restructures the directory to have subdirectories "train", "valid", "test" and each of them "images" and "labels"
-5 - split.py - set to 70%, 20%valid and 10% test
+1. KITTItoyolo.py - adapts label format from custom KITTI labelling to yolov8/9
+2. resize.py - stretches to 640x640
+3. labels_1242x375_to_640x640.py - adapts labels
+4. own.py - restructures the directory to have subdirectories "train", "valid", "test" and each of them "images" and "labels"
+5. split.py - set to 70%, 20%valid and 10% test
  
 
 Additional scripts:
